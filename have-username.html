@@ -16,7 +16,7 @@
 </head>
 <body>
 
-    <div class="master">
+    <div class="master badge-page">
 
         <section class="ln-nav">
             <div class="container">
@@ -36,7 +36,7 @@
                         <div class="personal-info">
                             <a href="#" class="badge-2"><img src="asset/images/gold-badge.png" alt=""></a>
                             <div class="txt">
-                                <a href="GOLD" class="badge-txt"></a>
+                                <a href="#" class="badge-txt gold">GOLD</a>
                                 <h4>John Doe</h4>
                             </div>
                         </div>
@@ -85,13 +85,13 @@
             <div class="container">
                 <div class="columns">
                     <div class="column is-12 has-text-centered">
-                        <p>Progress Transaksi Jual-Beli Dompet Bulanan (IDR)</p>
+                        <p class="sm">Progress Transaksi Jual-Beli Dompet Bulanan (IDR)</p>
                         <div class="progress-bar">
                             <div class="current"></div>
                             <div class="dots">
-                                <div class="dot">Lv 1<br>0xp</div>
-                                <div class="dot">Lv 2<br>500xp</div>
-                                <div class="dot">Lv 3<br>1000xp</div>
+                                <div class="dot active">Lv 1<br>0xp</div>
+                                <div class="dot active">Lv 2<br>500xp</div>
+                                <div class="dot active">Lv 3<br>1000xp</div>
                                 <div class="dot">Lv 4<br>1500xp</div>
                                 <div class="dot">Lv 5<br>2000xp</div>
                             </div>
@@ -101,17 +101,17 @@
                 </div>
             </div>
         </section>
-        <section class="level-progress">
+        <section class="level-progress pt-5 no-bb">
             <div class="container">
                 <div class="columns">
                     <div class="column is-12 has-text-centered">
-                        <p>Progress Total Transaksi Bulanan (IDR)</p>
-                        <div class="progress-bar">
+                        <p class="sm">Progress Total Transaksi Bulanan (IDR)</p>
+                        <div class="progress-bar mb-6">
                             <div class="current"></div>
                             <div class="dots">
-                                <div class="dot">Lv 1<br>0xp</div>
-                                <div class="dot">Lv 2<br>500xp</div>
-                                <div class="dot">Lv 3<br>1000xp</div>
+                                <div class="dot active">Lv 1<br>0xp</div>
+                                <div class="dot active">Lv 2<br>500xp</div>
+                                <div class="dot active">Lv 3<br>1000xp</div>
                                 <div class="dot">Lv 4<br>1500xp</div>
                                 <div class="dot">Lv 5<br>2000xp</div>
                             </div>
@@ -140,54 +140,56 @@
             <div class="container">
                 <div class="columns">
                     <div class="column is-12">
-                        <div class="title">
-                            <h3>Rincian Transaksi</h3>
-                        </div>
-                        <div class="transx">
-                            <div class="transx-item">
-                                <span>Total Volume Transaksi</span>
-                                <p><strong>14,377,515,834</strong></p>
+                        <div class="wrapper">
+                            <div class="title">
+                                <h3>Rincian Transaksi</h3>
                             </div>
-                            <div class="transx-item">
-                                <span>Jual-Beli Dompet</span>
-                                <p><strong>5,268,878,245</strong></p>
+                            <div class="transx">
+                                <div class="transx-item">
+                                    <span>Total Volume Transaksi</span>
+                                    <p><strong>14,377,515,834</strong></p>
+                                </div>
+                                <div class="transx-item">
+                                    <span>Jual-Beli Dompet</span>
+                                    <p><strong>5,268,878,245</strong></p>
+                                </div>
+                                <div class="transx-item">
+                                    <span>Taker</span>
+                                    <p><strong>0.00%</strong></p>
+                                </div>
+                                <div class="transx-item">
+                                    <span>Maker</span>
+                                    <p><strong>0.00%</strong></p>
+                                </div>
                             </div>
-                            <div class="transx-item">
-                                <span>Taker</span>
-                                <p><strong>0.00%</strong></p>
+                            <div class="dots-divider"></div>
+                            <div class="title">
+                                <h3>Rincian Cashback</h3>
                             </div>
-                            <div class="transx-item">
-                                <span>Maker</span>
-                                <p><strong>0.00%</strong></p>
-                            </div>
-                        </div>
-                        <div class="dots-divider"></div>
-                        <div class="title">
-                            <h3>Rincian Cashback</h3>
-                        </div>
-                        <div class="transx">
-                            <div class="transx-item">
-                                <span>Total Volume Transaksi (semua fitur)</span>
-                                <p><strong>14,377,515,834</strong></p>
-                            </div>
-                            <div class="transx-item">
-                                <span>Jual-Beli Dompet</span>
-                                <p><strong>5,268,878,245</strong></p>
-                            </div>
-                            <div class="transx-item">
-                                <span>Taker</span>
-                                <p><strong>0.00%</strong></p>
-                            </div>
-                            <div class="transx-item">
-                                <span>Maker</span>
-                                <p><strong>0.00%</strong></p>
+                            <div class="transx">
+                                <div class="transx-item">
+                                    <span>Total Volume Transaksi (semua fitur)</span>
+                                    <p><strong>14,377,515,834</strong></p>
+                                </div>
+                                <div class="transx-item">
+                                    <span>Jual-Beli Dompet</span>
+                                    <p><strong>5,268,878,245</strong></p>
+                                </div>
+                                <div class="transx-item">
+                                    <span>Taker</span>
+                                    <p><strong>0.00%</strong></p>
+                                </div>
+                                <div class="transx-item">
+                                    <span>Maker</span>
+                                    <p><strong>0.00%</strong></p>
+                                </div>
                             </div>
                         </div>
                         <p class="footnote">
                             <span class="sm-icon"><i class="fa fa-angle-double-right"></i></span>
                             Informasi di website ini bersifat informasional. Syarat & Ketentuan berlaku.
                         </p>
-                        <div class="bt-group">
+                        <div class="bt-group has-text-centered">
                             <a href="#" class="bt secondary-bt">Cek Kelayakan Anda Atas Promosi Ini</a>
                             <a href="#" class="bt secondary-bt">Cek Ketentuan Penggunaan Luno</a>
                             <a href="#" class="bt primary-bt">SELENGKAPNYA</a>
@@ -228,7 +230,15 @@
     <script>
         $(document).ready(function(){
             
-           
+            $(".master").scroll(function(){
+                if ($(".master").scrollTop() >= 300) {
+                    $('.ln-nav').addClass('show');
+                }
+                else {
+                    $('.ln-nav').removeClass('show');
+                }
+            });
+
 
         });
     </script>

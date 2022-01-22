@@ -562,12 +562,11 @@ p{
     color: var(--purple);
     margin-bottom: 10px;
     font-weight: 700;
-    color: #162af1;
 }
 .form-embed p{
     font-size: 14px;
     line-height: 150%;
-    color: #162af1;
+    color: var(--purple);
     font-weight: 300;
 }
 .form-embed h6,
@@ -873,7 +872,7 @@ form.form-control .inp-group label{
     float: left;
     margin-bottom: 5px;
     font-size: 12px;
-    color: #162af1;
+    color: var(--purple);
 }
 form.form-control .inp-group input{
     width: 100%;

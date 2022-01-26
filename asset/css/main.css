@@ -349,6 +349,14 @@ p{
     font-size: 14px;
     color: var(--purple-2);
 }
+.tite span,
+.title i{
+    font-size: 11px;
+    text-align: left;
+    float: left;
+    color: var(--purple-2);
+    margin-top: 5px;
+}
 
 .card-1{
     width: 100%;
@@ -707,9 +715,6 @@ p.sm{
     width: 100%;
     float: left;
     position: relative;
-}
-.progress-bar .dots{
-    width: 100%;
     height: 10px;
     background: var(--light-purple);
     border: 3px solid #fff;
@@ -721,6 +726,18 @@ p.sm{
     -webkit-box-shadow: 0 4px 16px rgba(0,0,0,0.15);
     margin: 20px 0 40px;
     position: relative;
+}
+.progress-bar .dots{
+    width: 100%; 
+    position: absolute;
+    top: 50%;
+}
+.progress-bar .current{
+    height: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--purple-2);
 }
 .dots .dot{
     width: 50px;
@@ -782,15 +799,18 @@ p.sm{
     left: 0;
 }
 .dots .dot:nth-child(2){
-    left: 25%;
+    left: 20%;
 }
 .dots .dot:nth-child(3){
-    left: 50%;
+    left: 40%;
 }
 .dots .dot:nth-child(4){
-    left: 75%;
+    left: 60%;
 }
-.dots .dot:last-child{
+.dots .dot:nth-child(5){
+    left: 80%;
+}
+.dots .dot:nth-child(6){
     left: 100%;
 }
 

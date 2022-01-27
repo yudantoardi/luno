@@ -993,4 +993,7 @@ form.form-control .inp-group input{
     .ln-nav{
         max-width: none;
     }
+    .ln-nav{
+        left: 0;
+    }
 }

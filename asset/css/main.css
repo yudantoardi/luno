@@ -202,6 +202,10 @@ p{
     -webkit-border-radius: 8px;
 }
 
+.ln-menu a.muted{
+    opacity: 0.4;
+}
+
 .ratio{
     position: relative;
     height: 0;

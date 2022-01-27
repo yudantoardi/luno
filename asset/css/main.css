@@ -134,6 +134,7 @@ p{
     -webkit-transition: var(--anim);
     opacity: 0;
     pointer-events: none;
+    overflow-y: auto;
 }
 .ln-menu-pop.show{
     opacity: 1;

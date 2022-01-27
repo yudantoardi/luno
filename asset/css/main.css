@@ -988,7 +988,8 @@ form.form-control .inp-group input{
 
 
 @media only screen and (max-width: 768px){
-    .master{
+    .master,
+    .ln-nav{
         max-width: none;
     }
 }

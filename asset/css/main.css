@@ -800,10 +800,10 @@ p.sm{
     font-weight: 700;
 }
 .dots .dot:first-child{
-    left: 0;
+    left: 5%;
 }
 .dots .dot:nth-child(2){
-    left: 20%;
+    left: 22%;
 }
 .dots .dot:nth-child(3){
     left: 40%;
@@ -812,10 +812,10 @@ p.sm{
     left: 60%;
 }
 .dots .dot:nth-child(5){
-    left: 80%;
+    left: 78%;
 }
 .dots .dot:nth-child(6){
-    left: 100%;
+    left: 95%;
 }
 
 .tasks{

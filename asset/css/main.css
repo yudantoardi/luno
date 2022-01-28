@@ -34,10 +34,7 @@
     max-width: 360px;
     margin: auto;
     position: relative;
-    /*height: 100vh;*/
-    box-shadow: 0 0 16px rgba(0,0,0,0.1);
-    -moz-box-shadow: 0 0 16px rgba(0,0,0,0.1);
-    -webkit-box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    height: 100vh;
     overflow-x: hidden;
     padding-top: 60px;
 }
@@ -1014,7 +1011,7 @@ form.form-control .inp-group input{
 }
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1023px){
     .master,
     .ln-nav{
         max-width: none;
@@ -1026,4 +1023,55 @@ form.form-control .inp-group input{
         width: 100%;
         left: 0;
     }
+}
+
+@media only screen and (min-width: 1024px){
+    .master{
+        max-width: none;
+    }
+    .container{
+        max-width: 1024px;
+    }
+    .ln-nav{
+        max-width: none;
+        left: 0;
+    }
+    .ln-nav .logo{
+        padding: 0 10px;
+    }
+    .hero{
+        background: var(--purple);
+    }
+    .hero-slider{
+        max-width: 1024px;
+        margin-left: calc((100% - 1024px) / 2);
+    }
+    .rewards-form form button{
+        max-width: 200px;
+    }
+
+    .wave-1::before,
+    .wave-2::before,
+    .wave-3::before{
+        display: none;
+    }
+
+    .bt-group .bt{
+        display: inline-block;
+        width: auto;
+        margin-right: 10px;
+    }
+
+    .ln-menu-pop{
+        left: 0;
+        overflow: visible;
+    }
+    .ln-menu-pop.show{
+        box-shadow: 0 0 3000px 3000px rgba(0,0,0,0.5);
+    }
+
+    .register{
+        background: var(--light-purple);
+    }
+
 }

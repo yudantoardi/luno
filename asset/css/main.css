@@ -438,14 +438,14 @@ p{
     display: block;
 }
 .tab-pane a.active span{
-    width: calc(100% - 36px);
+    width: calc(100% - 48px);
     padding-left: 10px;
     padding-top: 9px;
     font-size: 12px;
 }
 .tab-pane a img{
-    width: 36px;
-    height: 36px;
+    width: 48px;
+    height: 48px;
     float: left;
     object-fit: contain;
     display: none;
@@ -1007,6 +1007,10 @@ form.form-control .inp-group input{
         max-width: none;
     }
     .ln-nav{
+        left: 0;
+    }
+    .ln-menu-pop{
+        width: 100%;
         left: 0;
     }
 }

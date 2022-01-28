@@ -34,7 +34,7 @@
     max-width: 360px;
     margin: auto;
     position: relative;
-    height: 100vh;
+    /*height: 100vh;*/
     box-shadow: 0 0 16px rgba(0,0,0,0.1);
     -moz-box-shadow: 0 0 16px rgba(0,0,0,0.1);
     -webkit-box-shadow: 0 0 16px rgba(0,0,0,0.1);
@@ -674,8 +674,13 @@ strong{
     font-size: 18px;
     font-family: 'frb', sans-serif;
     font-weight: 700;
-    color: var(--gold);
     margin-bottom: 10px;
+}
+.badge-header h5.gold{
+    color: var(--gold);
+}
+.badge-header h5.pink{
+    color: #EA7976;
 }
 .badge-header span{
     width: 100%;

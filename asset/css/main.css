@@ -1074,4 +1074,15 @@ form.form-control .inp-group input{
         background: var(--light-purple);
     }
 
+    .sticky-bottom{
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+    .sticky-bottom a{
+        display: inline-block;
+        float: none;
+        width: 300px;
+    }
+
 }

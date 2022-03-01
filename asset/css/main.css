@@ -1110,13 +1110,13 @@ form.form-control .inp-group input{
 }
 .uname-list table td:first-child{
     min-width: 180px;
-    width: 80%;
+    width: 70%;
     padding-top: 22px;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 .uname-list table td:last-child{
-    width: 20%;
+    width: 30%;
     min-width: calc(100% - 180px);
 }
 .uname-list table td{

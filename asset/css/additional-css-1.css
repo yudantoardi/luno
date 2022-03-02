@@ -1,0 +1,39 @@
+.uname-list table{
+    background: #fff;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    width: 100%;
+    max-width: 100%;
+    float: left;
+    overflow: hidden;
+}
+.uname-list table th{
+    padding: 15px 20px;
+}
+.uname-list table td{
+    padding: 10px 20px;
+}
+.uname-list table th{
+    background: #f4f4f4;
+    border-bottom: 1px solid #dedede;
+}
+.uname-list table td:first-child{
+    min-width: 180px;
+    width: 70%;
+    padding-top: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.uname-list table td:last-child{
+    width: 30%;
+    min-width: calc(100% - 180px);
+}
+.uname-list table td{
+    border-bottom: 1px solid #efefef;
+}
+.uname-list table td button.bt{
+    font-size: 12px;
+    padding-top: 11px;
+    margin-bottom: 0;
+}

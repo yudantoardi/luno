@@ -1109,7 +1109,7 @@ form.form-control .inp-group input{
     border-bottom: 1px solid #dedede;
 }
 .uname-list table td:first-child{
-    width: 50%;
+    width: 40%;
     padding-top: 22px;
     white-space: nowrap;
     text-overflow: ellipsis;

@@ -1109,15 +1109,10 @@ form.form-control .inp-group input{
     border-bottom: 1px solid #dedede;
 }
 .uname-list table td:first-child{
-    min-width: 180px;
-    width: 70%;
+    width: 50%;
     padding-top: 22px;
     white-space: nowrap;
     text-overflow: ellipsis;
-}
-.uname-list table td:last-child{
-    width: 30%;
-    min-width: calc(100% - 180px);
 }
 .uname-list table td{
     border-bottom: 1px solid #efefef;
@@ -1126,4 +1121,36 @@ form.form-control .inp-group input{
     font-size: 12px;
     padding-top: 11px;
     margin-bottom: 0;
+}
+.uname-list.register{
+    height: auto;
+    background-position-y: -50vh;
+    min-height: calc(100vh - 60px);
+}
+
+.uname-list.register table span{
+    display: none;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 480px){
+    .uname-list.register table{
+        margin-bottom: 100px;
+    }
+    .uname-list.register table td{
+        display: block;
+        width: 100%;
+        float: left;
+        border-bottom: none;
+    }
+    .uname-list.register table td:last-child{
+        border-bottom: 1px solid #dedede;
+        padding-bottom: 30px;
+    }
+    .uname-list.register th{
+        display: none;
+    }
+    .uname-list.register table span{
+        display: inline;
+    }
 }
